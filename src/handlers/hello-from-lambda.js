@@ -1,6 +1,9 @@
 /**
  * A Lambda function that returns a string.
  */
+
+'use strict';
+
 module.exports.helloFromLambdaHandler = async event => {
   return {
     statusCode: 200,
